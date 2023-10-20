@@ -1,0 +1,13 @@
+<aim-sap-comparison-table-pdp (redirectTo)="redirectHandler($event)">
+  <ng-template
+    [contentSlot]="{ slotName: 'shareButtons' }"
+    let-shareButtonsData>
+    <share-buttons
+      theme="modern-dark"
+      [image]="shareButtonsData.pinterestImageUrl"
+      [include]="shareButtonsData.socialMedia"
+      [show]="shareButtonsData.amountOfVisibleSocialMedia"
+      [url]="shareButtonsData.shareComparisonUrl">
+    </share-buttons>
+  </ng-template>
+</aim-sap-comparison-table-pdp>

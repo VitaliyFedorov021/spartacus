@@ -1,0 +1,27 @@
+.cx-product-price {
+  font-size: var(--cx-font-size, 1.375rem);
+  font-weight: var(--cx-font-weight-semi);
+  line-height: var(--cx-line-height, 1.2222222222);
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.cx-product-name {
+  font-size: var(--cx-font-size, 1rem);
+  font-weight: var(--cx-font-weight-bold);
+  line-height: var(--cx-line-height, 1.2222222222);
+  text-align: center;
+  margin: 0 0 3px 0;
+  color: var(--cx-color-dark);
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-clamp: 2;
+  max-width: 100%;
+  height: 40px;
+  display: block;
+}
+
+.cx-product-rating {
+  text-align: center;
+}
